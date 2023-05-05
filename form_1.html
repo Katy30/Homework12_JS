@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework12_JS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div>
+
+    <label for="height">Height</label>
+    <input type="number" id="height" placeholder="number" required >
+
+
+    <label for="width">Width</label>
+    <input type="number" id="width" placeholder="number" required>
+
+    <div class="checkbox">
+        <input type="checkbox" id="ellipse" name="shape">
+        <label for="ellipse">Ellipse</label>
+    </div>
+
+    <button id="draw_btn" disabled>Draw</button>
+</div>
+
+<canvas id="canvas"  height="1000"  width="1000" style="border: 2px solid red"></canvas>
+
+</body>
+<script src="js/script01.js"></script>
+</html>
